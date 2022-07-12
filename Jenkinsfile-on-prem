@@ -17,6 +17,7 @@ pipeline {
         HARBOR_NAMESPACE = 'library'
         GITLAB_ACCOUNT = 'admin1'
         APP_NAME = 'devops-java-sample'
+        SONAR_CREDENTIAL_ID= 'sonar-qube'
     }
 
     stages {
